@@ -1,3 +1,10 @@
+Tratador de Cliente:
+package Server;
+
+import java.io.*;
+import java.net.Socket;
+import java.util.List;
+
 public class TratadorDeCliente implements Runnable {
     private final Socket socketCliente;
     private final List<Livro> listaLivros;
