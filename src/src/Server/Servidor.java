@@ -87,10 +87,3 @@ public class Servidor {
         }
     }
 }
-
-Tratador de Cliente:
-package Server;
-
-import java.io.*;
-import java.net.Socket;
-import java.util.List;
