@@ -1,4 +1,3 @@
-Servidor:
 package Server;
 
 import java.io.*;
