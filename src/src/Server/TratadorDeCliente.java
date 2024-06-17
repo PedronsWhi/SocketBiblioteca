@@ -1,4 +1,3 @@
-Tratador de Cliente:
 package Server;
 
 import java.io.*;
