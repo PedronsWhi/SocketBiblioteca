@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Servidor {
     private static final int PORTA = 12345;
-    private static final String ARQUIVO_LIVROS = "Server/livros.json";
+    private static final String ARQUIVO_LIVROS = "livros.json"; //não foi possível arrumar a rota
     private static List<Livro> listaLivros = new ArrayList<>();
 
     public static void main(String[] args) {
@@ -85,7 +85,7 @@ public class Servidor {
             e.printStackTrace();
         }
     }
-
+    //a partir daqui, colocar em uma outra classe
     private static class TratadorDeCliente implements Runnable {
         private final Socket socketCliente;
 
